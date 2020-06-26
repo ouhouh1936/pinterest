@@ -27,13 +27,26 @@ body {
 
 .main {
   color: white;
+  margin-top: 450px;
 }
 .main-1 {
-  font-size: 20px;
+  font-size: 30px;
 }
 .main-2 {
-  font-size: 20px;
+  font-size: 30px;
 }
 .main-3 {
-  font-size: 20px;
+  font-size: 40px;
+  color: #2c2c54;
+}
+.mainleft1 {
+  color: black;
+  opacity: 0.5;
+  margin: 24px, 0px, 0px;
+  padding: 16px, 32px;
+}
+.mainleft2 {
+  color: black;
+  opacity: 0.5;
+  padding: 20px, 20px;
 }
