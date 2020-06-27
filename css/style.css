@@ -5,6 +5,8 @@ body {
 .heder {
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   border-bottom: 1px solid black;
 }
@@ -16,18 +18,15 @@ body {
   border-radius: 50%;
   background-size: cover;
   cursor: pointer;
-  text-align: center;
   position: relative absolute;
 }
 .heder-2 {
-  width: 100%;
   font-size: 25px;
-  text-align: center;
 }
 
 .main {
   color: white;
-  margin-top: 450px;
+  margin-top: 300px;
 }
 .main-1 {
   font-size: 30px;
@@ -41,12 +40,47 @@ body {
 }
 .mainleft1 {
   color: black;
-  opacity: 0.5;
+
   margin: 24px, 0px, 0px;
   padding: 16px, 32px;
 }
+.mainleft1 input {
+  background-color: rgba(20, 20, 20, 0.3);
+  width: 120px;
+  height: 25px;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px #0b0b0b;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.mainleft1 input:hover {
+  background-color: rgba(143, 141, 141, 0.3);
+  color: #0b0b0b;
+}
+
 .mainleft2 {
   color: black;
-  opacity: 0.5;
   padding: 20px, 20px;
+}
+.mainleft2 input {
+  background-color: rgba(20, 20, 20, 0.3);
+  width: 120px;
+  height: 25px;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px #0b0b0b;
+  margin: 5px;
+  cursor: pointer;
+}
+.mainleft2 input:hover {
+  color: black;
+  padding: 20px, 20px;
+}
+
+.fab {
+  font-size: 22px;
 }
