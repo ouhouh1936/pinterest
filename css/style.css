@@ -8,7 +8,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 .heder-1 {
   background-image: url(../assets/avatar.png);
@@ -18,10 +18,11 @@ body {
   border-radius: 50%;
   background-size: cover;
   cursor: pointer;
-  position: relative absolute;
 }
 .heder-2 {
   font-size: 25px;
+  font-family: "Apple SD Gothic Neo";
+  color: rgb(198, 36, 49);
 }
 
 .main {
@@ -38,49 +39,16 @@ body {
   font-size: 40px;
   color: #2c2c54;
 }
-.mainleft1 {
-  color: black;
 
-  margin: 24px, 0px, 0px;
-  padding: 16px, 32px;
+.mainleft1-1 {
+  font-size: 26px;
+  font-family: Arial;
 }
-.mainleft1 input {
-  background-color: rgba(20, 20, 20, 0.3);
-  width: 120px;
-  height: 25px;
-  border: none;
-  color: #fff;
-  border-radius: 3px;
-  box-shadow: 2px 2px 2px #0b0b0b;
-  margin: 5px;
-  cursor: pointer;
-}
-
-.mainleft1 input:hover {
-  background-color: rgba(143, 141, 141, 0.3);
-  color: #0b0b0b;
-}
-
 .mainleft2 {
-  color: black;
-  padding: 20px, 20px;
-}
-.mainleft2 input {
-  background-color: rgba(20, 20, 20, 0.3);
-  width: 120px;
-  height: 25px;
-  border: none;
-  color: #fff;
-  border-radius: 3px;
-  box-shadow: 2px 2px 2px #0b0b0b;
-  margin: 5px;
+  background-image: url(../assets/pinterest.png);
+  width: 136px;
+  height: 50px;
+  border-radius: 15px;
+  background-size: cover;
   cursor: pointer;
-}
-.mainleft2 input:hover {
-  color: black;
-  padding: 20px, 20px;
-}
-
-.fab {
-  font-size: 22px;
 }
