@@ -24,6 +24,11 @@ body {
   font-family: "Apple SD Gothic Neo";
   color: rgb(198, 36, 49);
 }
+.title {
+  font-size: 50px;
+  margin-left: 30px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
 
 .main {
   color: white;
