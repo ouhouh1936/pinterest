@@ -17,7 +17,6 @@ body {
   margin-right: 10px;
   border-radius: 50%;
   background-size: cover;
-  cursor: pointer;
 }
 .heder-2 {
   font-size: 25px;
@@ -48,6 +47,10 @@ body {
 .mainleft1-1 {
   font-size: 26px;
   font-family: Arial;
+  margin-bottom: 30px;
+}
+.mainleft1-2 {
+  cursor: pointer;
 }
 .mainleft2 {
   background-image: url(../assets/pinterest.png);
@@ -55,5 +58,7 @@ body {
   height: 50px;
   border-radius: 15px;
   background-size: cover;
-  cursor: pointer;
+
+  margin-bottom: 80px;
+  margin-left: 80px;
 }
